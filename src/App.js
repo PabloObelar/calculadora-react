@@ -24,7 +24,9 @@ function App() {
   return (
     <div className="App">
       <div className="logo-contenedor">
-        <img src={logo} className="logo" alt="logo PabloObelar" />
+        <a href="https://github.com/PabloObelar" alt="GitHub Pablo Obelar">
+          <img src={logo} className="logo" alt="logo PabloObelar" />
+        </a>
       </div>
       <div className="contenedor-calculadora">
         <Pantalla input={input} />
